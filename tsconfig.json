@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@types": ["packages/types/index.ts"],   // <- point vers le fichier unique
+      "@ui/*": ["packages/ui/*"],
+      "@blocks/*": ["packages/blocks/*"],
+      "@theme/*": ["packages/theme/*"],
+      "@storefront/*": ["apps/storefront/*"],
+      "@api/*": ["apps/api/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

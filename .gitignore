@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment
+.env
+.env*.local
+
+# MacOS / Linux
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# PNPM store (si jamais il est localisé dans le projet)
+.pnpm-store/
